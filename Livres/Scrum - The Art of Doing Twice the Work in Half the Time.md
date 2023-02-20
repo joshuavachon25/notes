@@ -1,6 +1,6 @@
 ## Chapitre 1 - La facon dont le monde fonctionne est brisé
 #### Planifier est utile; suivre une plan aveuglement est stupide
-Waterfall se base souvent sur de gros diagramme de Gantt, un élément méthodologique qui date de la fin du 19e siècle et qui a très souvent pu montrer ses limites. C'est très tentant de mettre aux yeux de tous un plan contenant l'ensemble du chemin, toutes les tâches et les temps requis pour arriver à notre objectif... Malheureusement, au contact de la vraie vie, le plan s'effondre. Il faut plutôt assumer le changement, la découverte et l'émergence de nouvelles idées.
+C'est très tentant de mettre aux yeux de tous un plan contenant l'ensemble du chemin, toutes les tâches et les temps requis pour arriver à notre objectif... Malheureusement, au contact de la vraie vie, le plan s'effondre. Il faut plutôt assumer le changement, la découverte et l'émergence de nouvelles idées.
 
 #### Inspectez et adaptez
 Après un certain temps, arrêtez ce que vous faites pour faire une rétrospective de ce que vous avez fait, puis voyez si vous devriez continuer ce que vous faites et si vous pouvez faire mieux.
