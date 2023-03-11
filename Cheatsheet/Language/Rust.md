@@ -23,4 +23,20 @@
 
 ## Affichage console
 Provient d'une série de macro dans std::fmt
-- format!: 
+- format!: Texte formatté vers string
+- print!: Affiche du texte formatté dans la console (io::stdout)
+- println!: print! avec lignes
+- eprint!: print! pour les erreurs (io::stderr)
+- eprintln!: eprintln! avec nouvelle ligne
+
+### Formattage
+- {}: standard
+- {:b}: Binaire 
+- {:o}: Octal 
+- {:x}: Hexadecimal minuscule 
+- {:X}: Hexadecimal majuscule 
+- {NOM}: Pour utiliser des clés au lieu de l'index 
+- {:?}: Standard (={}) 
+- #[derive(Debug)]: Pour debug (avant ligne, puis {:?}
+- {:#?} : Pretty print
+- (DISPLAY)[https://doc.rust-lang.org/rust-by-example/hello/print/print_display.html] doit être implémenté manuellement
