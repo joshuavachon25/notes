@@ -39,4 +39,4 @@ Provient d'une série de macro dans std::fmt
 - {:?}: Standard (={}) 
 - #[derive(Debug)]: Pour debug (avant ligne, puis {:?}
 - {:#?} : Pretty print
-- (DISPLAY)[https://doc.rust-lang.org/rust-by-example/hello/print/print_display.html] doit être implémenté manuellement
+- [https://doc.rust-lang.org/rust-by-example/hello/print/print_display.html](Display) doit être implémenté manuellement
