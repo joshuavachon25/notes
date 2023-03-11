@@ -62,3 +62,20 @@ Provient d'une série de macro dans std::fmt
 - Binaire: 0b
 - Notation scientifique: ex:. 1e6 (type = f64)
 - Lisibilité: Mettre des underscores pour chaque paquet de trois
+
+#### Array
+##### Initialisation
+let ys: [type; nb element] = [Valeur par défaut; nb element];
+ou
+let xs: [type: nb element] = [v1,v2,v3,v4,vn...]
+
+##### Méthodes
+.len() Nombre d'éléments
+[1 .. 3] Slice 1 à 3
+
+### Types personnalisées
+#### Structures
+- Trois types: Tuple, C Structs, Unit Struct
+
+## Gestion de la mémoire
+- mem::size_of_value() permet de calculer l'espace mémoire pris par une variable
