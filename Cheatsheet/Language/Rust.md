@@ -42,4 +42,23 @@ Provient d'une série de macro dans std::fmt
 - [Display](https://doc.rust-lang.org/rust-by-example/hello/print/print_display.html) doit être implémenté manuellement
 
 
-## Types
+## Variables (typage)
+### Primitives
+#### Simples
+- INT signés: i8, i16,  i32, i64, i128, isize
+- INT non signés: u8, u16, u32, u64, u128, usize
+- FLOAT: f32, f64
+- CHAR: char 
+- BOOL: bool
+- Unit type: () (valeur possible = ())
+#### Composées
+- Array: [] Collection d'objet du même type
+- Tuple: () Collections de valeurs de types différents
+
+#### Math
+- Literals: VALEURTYPE ex.: 1u32, 123i32...
+- Hexa: 0x
+- Octal: 0o
+- Binaire: 0b
+- Notation scientifique: ex:. 1e6 (type = f64)
+- Lisibilité: Mettre des underscores pour chaque paquet de trois
