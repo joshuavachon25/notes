@@ -25,3 +25,12 @@ Cela consiste assurer que le logiciel rencontre les besoins de l'utilisateur en 
 Notez que tester, reste malgré tout incomplet, mais on peut au moins le rendre utile
 
 ### Analysis Square
+![](https://github.com/joshuavachon25/notes/blob/main/analysis_square.png)
+
+## Pourquoi et comment tester?
+### Pourquoi les tests logiciels sont si difficiles?
+La plupart des logiciels sont discontinues, ce qui fait qu'on tests en fait un échantillon de tous les comportements possibles. Par exemple, en ingénérie, pour tester une poutre, il serait possible d'appliquer de plus en plus de force jusqu'à obtenir une mesure précise de la force nécessaire pour briser celle-ci. Pour les logiciels, on ne peut pas seulement augmenter la charge, il faut vraiment faire des tests très distincts pour parvenir à vérifier le fonctionnement. On peut imaginer notre système comme une toile sur laquelle les programmeurs mettent sans le vouloir des petits insectes. Pour vérifier qu'il n'y a pas d'insecte, il faut faire une panoplie de tests en espérant tombé sur un insecte. Lorsque nous avons terminé, nous n'avons pas la certitude d'avoir tous les insectes... Si on sait qu'en rajoutant du poids, nous aurons un problème avec le pont; le fait de tester ne permet pas de dire qu'il ajouter ou supprimer quelques choses pour trouver un bug.
+
+Même pour un petit système, il peut y avoir des millions d'états possibles... C'est donc impossible de tout tester!
+
+![image](https://github.com/joshuavachon25/notes/assets/46571227/4cdc26f1-91fb-46bb-b09d-f732ca3f89d7)
