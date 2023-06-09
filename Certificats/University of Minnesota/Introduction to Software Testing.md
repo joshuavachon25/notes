@@ -34,3 +34,54 @@ La plupart des logiciels sont discontinues, ce qui fait qu'on tests en fait un �
 Même pour un petit système, il peut y avoir des millions d'états possibles... C'est donc impossible de tout tester!
 
 ![image](https://github.com/joshuavachon25/notes/assets/46571227/4cdc26f1-91fb-46bb-b09d-f732ca3f89d7)
+
+### Types de tests
+#### Échelles
+- Unit: Tests sur des fonctions spécifiques
+- Integration: Test d'une package, d'un sous-système
+- System: E2E
+
+#### Processus
+- Test first: Test driven development (TDD)
+    - Tests avant le code
+    - Code est écrit pour répondre au test
+- Test after
+    - Vérifier que le code passe les tests
+    - TDD demandent aussi du test after
+- Iteration
+    - Re-tester
+
+#### Buts
+- Functionnal
+- Performance
+- Security
+- Usability
+- Availability
+
+## Qu'est-ce qu'un test?
+Un élément permettant de vérifier le comportement/réation d'un bout de code terminé. 
+- Software under Test
+   - Demande des données de tests (générées ou non)
+   - Vérifier que l'output fonctionne grâce à l'Oracle (par le passé: testeur manuel)
+   - TestData => Software under test => Output => Oracle => Success or Fail?
+
+![image](https://github.com/joshuavachon25/notes/assets/46571227/d25dc87b-bf8c-48d3-b9be-ecf4e05c2e29)
+
+### Anatomie d'un test
+- Setup: Préparation du contexte du test
+- Invocation: Exécution d'un test à partir de données
+- Assessment: Vérifier le succès ou l'échec
+- Teardown: Remise à l'état initial
+
+## Qu'est-ce qu'une suite de test?
+### Exemple
+- Le nom de la classe de test est la classe de test + Test (ClasseTest)
+- Chaque test doit avoir au moins une assertion
+- JUnit fait tous les tests, il n'arrête pas lors d'un fail
+- Prioriser le test de petites méthodes au lieu de tout le code
+- Les tests unitaires doivent être comprehensive 
+
+### Exemple de TDD
+- JUnit commence avec l'annotation @Test
+- Ensuite une fonction avec le nom du test
+- On veut rediriger l'entrée et la sortie dans nos tests
